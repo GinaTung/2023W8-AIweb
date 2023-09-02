@@ -5,7 +5,7 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 var swiper2 = new Swiper(".mySwiper2", {
-  slidesPerView: 1,
+  slidesPerView: "auto",
   spaceBetween: 5,
   // keyboard: {
   //   enabled: true,

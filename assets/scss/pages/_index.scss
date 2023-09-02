@@ -61,6 +61,62 @@
 }
 .share{
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 40px;
   @include radial-gradient( #000000,#28085c);
+}
+.contact{
+  background-color: #1F0F39;
+  padding-top: 144px;
+  padding-bottom: 144px;
+  .line-x-2{
+    width: 124px;
+    height: 12px;
+    background-color: $white;
+    border-radius: 12px;
+  }
+  .form-floating{
+    z-index: 16;
+    background: #000;
+  }
+}
+.ai-cardList{
+  .fs-m {
+    font-size: 128px;
+  }
+  .font-saira {
+    font-family: "Saira Extra Condensed" !important ;
+  }
+  .fs-md-l {
+    @media (min-width: 768px) {
+      font-size: 400px;
+    }
+  }
+  .mb-18 {
+    margin-bottom: 18px;
+  }
+  
+  .card {
+    padding: 24px 12px;
+    background-color: #000;
+    background-blend-mode: darken;
+    background-image: url("../images/diane_vertical.png");
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    @media (min-width: 768px) {
+      padding: 24px 40px 56px;
+    }
+    &:hover {
+      background-color: rgb(0, 0, 0, 0.5);
+    }
+  }
+  .card-img2{
+    background-image: url("../images/felix_vertical.png");
+  }
+  .card-img3{
+    background-image: url("../images/karina_verticalgle.png");
+  }
+  .card-img4{
+    background-image: url("../images/vito_vertical.png");
+  }
 }
