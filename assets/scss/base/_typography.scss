@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap');
 
-.font-Shrikhand{
+.font-shrikhand{
   font-family: 'Shrikhand', cursive;
 }
 .font-saira {
   font-family: "Saira Extra Condensed", sans-serif;
 }
 .letter-spac-1{
-  letter-spacing: 24px;
+  letter-spacing: 48px;
+}
+.letter-spac-2{
+  letter-spacing: 16px;
+}
+
+.fs-96{
+  font-size: 96px;
 }

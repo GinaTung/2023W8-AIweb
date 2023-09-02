@@ -18,3 +18,12 @@
         @content;
     }
 }
+@mixin gradient-y($start-color: $primary-300, $end-color: $primary-800) {
+    background-image: linear-gradient(to bottom, $start-color, $end-color);
+  }
+@mixin radial-gradient(
+  $start-color: $primary-300,
+  $end-color: $primary-800,
+) {
+  background-image: radial-gradient(50% 50% at 50% 50%, $start-color 0%, $end-color 100%);
+}

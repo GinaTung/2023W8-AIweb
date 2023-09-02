@@ -386,6 +386,8 @@ $spacers: (//*custom
   10: $spacer * 3,//48
   11: $spacer * 3.5,//56
   12: $spacer * 3.75,//60
+  13: $spacer * 5,//80
+  14: $spacer * 6 //96
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -394,19 +396,29 @@ $spacers: (//*custom
 // Define the edge positioning anchors of the position utilities.
 
 // scss-docs-start position-map
-$position-values: (
+$position-values: (//*custom
   0: 0,
-  5:5%,
+  5: 5%,
   10: 10%,
   15: 15%,
+  18:18%,
   20: 20%,
   25: 25%,
   30: 30%,
   35: 35%,
+  38:38%,
   40: 40%,
+  45: 45%,
   50: 50%,
+  52:52%,
+  55: 55%,
   60: 60%,
+  65: 65%,
+  70: 70%,
   75: 75%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
   100: 100%
 ) !default;
 // scss-docs-end position-map

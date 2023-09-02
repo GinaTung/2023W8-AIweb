@@ -1,11 +1,8 @@
-.index-title {
-  font-size: 100px;
-}
 .img-fit{
   object-fit: cover; 
 }
 .banner {
-  background-image: url("../images/home_background.png"),url("https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/circle.png?raw=true");
+  background-image: url("../images/home_background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,4 +28,39 @@
   100% {
     transform: rotate(360deg);
   }
+}
+.card-list{
+  position: relative;
+  bottom:-104px;
+  z-index: 10;
+}
+
+.service{
+  @include radial-gradient(#28085c, #000000);
+  .service-text{
+    z-index: 16;
+  }
+  .line-x{
+    height: 40px;
+    @include gradient-x(#7000FF, #11002D);
+    z-index: 16;
+  }
+}
+.news{
+  @include radial-gradient(#28085c, #000000);
+  padding-top: 160px;
+  .alphaboxCircle2{
+    width: 132px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    z-index: -1;
+  }
+}
+.share{
+  padding-top: 160px;
+  padding-bottom: 160px;
+  @include radial-gradient( #000000,#28085c);
 }

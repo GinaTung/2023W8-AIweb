@@ -839,7 +839,7 @@ $utilities: map-merge(
         property: width,
         class: vw,
         responsive: true,
-        values: (100: 100vw,90: 90vw)
+        values: (100: 100vw,90: 90vw ,50:50vw)
       ),
       
     "height": (
@@ -865,7 +865,7 @@ $utilities: map-merge(
       property: height,
       class: vh,
       responsive: true,
-      values: (100: 100vh)
+      values: (100: 100vh,90: 90vh ,50:50vh)
     ),
     "background-color": (
       property: background-color,
@@ -886,6 +886,7 @@ $utilities: map-merge(
           'primary-500': $primary-500,
           'primary-600': $primary-600,
           'primary-700': $primary-700,
+          'primary-800': $primary-800,
         )
       )
     ),
@@ -912,6 +913,7 @@ $utilities: map-merge(
           'primary-500': $primary-500,
           'primary-600': $primary-600,
           'primary-700': $primary-700,
+          'primary-800': $primary-800,
         )
       )
     ),
