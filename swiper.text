@@ -1,0 +1,33 @@
+    <!-- <div class="service position-relative ">
+      <div class="service-text position-absolute top-25 mb-7 border-bottom border-1 border-white w-100 px-13">
+        <h3 class="fs-3 mb-3 letter-spac-1">什麼是</h3>
+        <h3 class="fs-3 letter-spac-1 mb-4">ALPHABOX+</h3>
+      </div>
+      <div class="line-x w-100 position-absolute top-15 mt-9 mb-2 px-13"></div>
+      <div class="container">
+        <div class="position-relative">
+          <img src="../assets/images/carousel_background.png" alt="carousel_background" class="img-fit vw-50">
+
+          <div class="swiper mySwiper position-absolute top-45 container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide position-relative">
+                <img src="../assets/images/carousel.png" alt="carousel" class="position-relative">
+                <a href="#"
+                  class="btn-triangle btn-white btn-border  position-absolute top-40 end-10 mx-4 translate-middle-y text-white fs-96 fst-italic font-shrikhand">01</a>
+                <a href="#"
+                  class="btn-triangle btn-white btn-border  position-absolute top-55 end-10 mx-4 translate-middle-y text-white fs-5">立體投影技術</a>
+                <a href="#"
+                  class="btn-triangle btn-white btn-border  position-absolute top-65 end-10 mx-4 translate-middle-y text-white">透過高科技立體投影技術，讓您感受真實的科技世界。</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="../assets/images/carousel.png" alt="carousel">
+              </div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+      <div class="line-x w-100 position-absolute top-90 mt-9 mb-2"></div>
+    </div> -->

@@ -33,13 +33,31 @@
   position: relative;
   bottom:-104px;
   z-index: 10;
+  @include pad{
+    bottom:0px;
+  }
 }
-
+.pt-250{
+  padding-top: 300px;
+  @include pad-sm{
+    padding-top: 200px;
+  }
+}
 .service{
   @include radial-gradient(#28085c, #000000);
   .service-text{
     z-index: 16;
   }
+.img-bg{
+  background-image: url("../images/carousel_background.png");
+  background-position: left;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+  @include mobile{
+    background-size: cover;
+  }
+}
   .line-x{
     height: 40px;
     @include gradient-x(#7000FF, #11002D);
