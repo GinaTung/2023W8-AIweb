@@ -33,7 +33,7 @@
 
 // 8. Add additional custom code here
 @import "base/typography";
-// @import "base/spacer";
+@import "base/spacer";
 
 @import "base/base";
 @import "components/icon";
@@ -44,5 +44,6 @@
 
 
 @import './pages/index.scss';
+@import './pages/news.scss';
 @import './components/swiper';
 @import "../../node_modules/bootstrap";

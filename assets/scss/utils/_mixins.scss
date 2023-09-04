@@ -18,6 +18,9 @@
         @content;
     }
 }
+@mixin gradient-x($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to right, $start-color, $end-color);
+  }
 @mixin gradient-y($start-color: $primary-300, $end-color: $primary-800) {
     background-image: linear-gradient(to bottom, $start-color, $end-color);
   }
