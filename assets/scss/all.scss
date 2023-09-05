@@ -32,10 +32,10 @@
 
 
 // 8. Add additional custom code here
-@import "base/typography";
-@import "base/spacer";
 
 @import "base/base";
+@import "base/typography";
+@import "base/spacer";
 @import "components/icon";
 
 // @import './layout/container';
@@ -45,6 +45,6 @@
 
 @import './pages/index.scss';
 @import './pages/contact';
-@import './pages/news.scss';
+@import './pages/news';
 @import './components/swiper';
 @import "../../node_modules/bootstrap";

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap');
+
 .font-shrikhand{
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Shrikhand', cursive !important;
 }
 .font-saira {
   font-family: "Saira Extra Condensed", sans-serif !important;
@@ -15,9 +16,7 @@
 .fs-96{
   font-size: 96px;
 }
-.fs-128{
-  font-size: 128px;
-}
+
 .fw-900{
   font-weight: 900;
 }

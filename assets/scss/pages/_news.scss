@@ -1,3 +1,33 @@
-.news-bg{
-    @include radial-gradient(#28085c, #000000);
+.news-bg {
+  @include radial-gradient(#28085c, #000000);
+}
+.arrow-position {
+  bottom: 10%;
+  @include pad {
+    bottom: -13%;
+    right: 0;
+  }
+}
+.fs-128 {
+    @include pad-sm {
+        font-size: 128px;
+      }
+}
+.font-md{
+    @include pad-sm {
+        font-weight: 700;
+        letter-spacing: 40px;
+        margin-bottom: 58px;
+        text-align: left;
+      }
+}
+.img-md{
+    @include pad {
+        height: 108px !important;
+      }
+}
+.page-link{
+    &:hover{
+        text-decoration: underline;
+    }
 }

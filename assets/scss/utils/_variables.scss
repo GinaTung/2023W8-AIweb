@@ -387,7 +387,9 @@ $spacers: (//*custom
   11: $spacer * 3.5,//56
   12: $spacer * 3.75,//60
   13: $spacer * 5,//80
-  14: $spacer * 6 //96
+  14: $spacer * 6, //96
+  15: $spacer *7.5,//120
+  16: $spacer *10,//160
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -572,6 +574,7 @@ $aspect-ratios: (
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case //*custom
 $font-family-sans-serif: 'Noto Sans TC','Shrikhand',system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
@@ -1234,12 +1237,12 @@ $pagination-margin-start:           ($pagination-border-width * -1) !default;
 $pagination-border-color:           $gray-300 !default;
 
 $pagination-focus-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-focus-bg:               $gray-200 !default;
+$pagination-focus-bg:              transparent  !default;
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
 $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-hover-bg:               $gray-200 !default;
+$pagination-hover-bg:               transparent  !default;
 $pagination-hover-border-color:     $gray-300 !default;
 
 $pagination-active-color:           $component-active-color !default;
