@@ -12,7 +12,7 @@
   }
   .alphaboxCircle {
     width: 196px;
-    animation-name: rotate;
+    animation-name: rotateAnimation;
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -21,7 +21,7 @@
   }
 }
 
-@keyframes rotate {
+@keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);
   }
@@ -67,16 +67,18 @@
 .news{
   @include radial-gradient(#28085c, #000000);
   padding-top: 160px;
-  .alphaboxCircle2{
-    width: 132px;
-    animation-name: rotate;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    z-index: -1;
+  .rotate2 {
+    animation: rotateAnimation 10s linear infinite; /* 10s 是動畫完成一次旋轉的時間*/
+  }
+  .circle{
+    color: $light;
+    position: absolute;
+    top:-54px;
+  
   }
 }
+
+
 .share{
   padding-top: 160px;
   padding-bottom: 40px;
