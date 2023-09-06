@@ -67,6 +67,10 @@
 .news{
   @include radial-gradient(#28085c, #000000);
   padding-top: 160px;
+  .more-rotate{
+    padding-top: 130px;
+    padding-bottom: 150px;
+  }
   .rotate2 {
     animation: rotateAnimation 10s linear infinite; /* 10s 是動畫完成一次旋轉的時間*/
   }
@@ -78,6 +82,13 @@
   }
 }
 
+.border-bottom-s{
+  @media (max-width:458px){
+    border-bottom: 1px solid $white;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+}
 
 .share{
   padding-top: 160px;
