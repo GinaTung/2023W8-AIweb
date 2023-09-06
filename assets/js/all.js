@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
-  // autoplay: {
-  //   delay: 5000,
-  // },
+  autoplay: {
+    delay: 5000,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -10,13 +10,13 @@ var swiper = new Swiper(".mySwiper", {
 var swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: "auto",
   spaceBetween: 5,
-  // keyboard: {
-  //   enabled: true,
-  // },
+  keyboard: {
+    enabled: true,
+  },
 
   breakpoints: {
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     992: {
       slidesPerView: 2,
