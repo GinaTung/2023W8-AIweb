@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
-    <h1>我是about</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>about</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <div class="bg-black">
+
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col">
+          <div class="card h-100 bg-transparent">
+            <h5 class="card-header px-0 letter-spac-2">
+              <img src="../assets/images/emergency.png" alt="emergency" style="width: 24px;height: 24px;">
+              2023.06.30
+            </h5>
+            <div class="card-body px-0 pb-0">
+              <h5 class="card-title">限時優惠活動</h5>
+              <p class="card-text pb-3">為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。訂閱 ALPHABOX+ 的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！</p>
+            </div>
+            <div class="card-footer px-0">
+              <a href="#" class="btn-triangle d-none d-md-block">
+                <img src="../assets/images/line_end_arrow_notch.png" alt="arrow_notch">
+
+              </a>
+              <a href="#" class="d-md-none">
+                <img src="../assets/images/line_end_arrow_notch1.png" alt="arrow_notch1" class="pt-3 pt-md-0">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-transparent">
+            <h5 class="card-header px-0 letter-spac-2">
+              <img src="../assets/images/emergency.png" alt="emergency" style="width: 24px;height: 24px;">
+              2023.06.30
+            </h5>
+            <div class="card-body px-0 pb-0">
+              <h5 class="card-title">新功能上線</h5>
+              <p class="card-text pb-3">為使您的 ALPHABOX+ 更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。
+              </p>
+            </div>
+            <div class="card-footer px-0">
+              <a href="#" class="btn-triangle d-none d-md-block">
+                <img src="../assets/images/line_end_arrow_notch.png" alt="arrow_notch">
+
+              </a>
+              <a href="#" class="d-md-none">
+                <img src="../assets/images/line_end_arrow_notch1.png" alt="arrow_notch1" class="pt-3 pt-md-0">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
