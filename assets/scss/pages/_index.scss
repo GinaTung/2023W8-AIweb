@@ -37,24 +37,25 @@
     bottom:0px;
   }
 }
-.pt-250{
-  padding-top: 300px;
-  @include pad-sm{
-    padding-top: 200px;
-  }
+.radialToLight{
+  @include radial-gradient(#28085c, #000000);
+  position: absolute;
+  z-index: 1;
 }
 .service{
-  @include radial-gradient(#28085c, #000000);
-  .service-text{
-    z-index: 16;
-  }
-.img-bg{
-  background-image: url("../images/carousel_background.png");
-  background-position: left;
-  background-size: auto auto;
-  background-repeat: no-repeat;
+  position: relative;
   z-index: 1;
-  @include mobile{
+.img-bg{
+  position: absolute;
+  background-image: url("../images/carousel_background.png");
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  width: 948px;
+  height: 1089px;
+  z-index: -1;
+  @include pad{
     background-size: cover;
   }
 }
@@ -63,10 +64,16 @@
     @include gradient-x(#7000FF, #11002D);
     z-index: 16;
   }
+  .z-index-5{
+    z-index: 5;
+  }
 }
 .news{
   @include radial-gradient(#28085c, #000000);
   padding-top: 160px;
+  @include pad{
+    padding-top: 60px;
+  }
   .more-rotate{
     padding-top: 130px;
     padding-bottom: 150px;
