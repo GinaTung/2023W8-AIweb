@@ -389,7 +389,8 @@ $spacers: (//*custom
   13: $spacer * 5,//80
   14: $spacer * 6, //96
   15: $spacer *7.5,//120
-  16: $spacer *10,//160
+  16: $spacer *9,//144
+  17: $spacer *10,//160
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -411,6 +412,7 @@ $position-values: (//*custom
   35: 35%,
   38:38%,
   40: 40%,
+  43:43%,
   45: 45%,
   50: 50%,
   52:52%,
@@ -467,7 +469,8 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
+  x3l: 1800px//*custom
 ) !default;
 // scss-docs-end grid-breakpoints
 

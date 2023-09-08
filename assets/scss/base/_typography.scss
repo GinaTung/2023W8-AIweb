@@ -6,16 +6,25 @@
 .font-saira {
   font-family: "Saira Extra Condensed", sans-serif !important;
 }
+.letter-spac-0{
+  letter-spacing: 0.3em;
+}
 .letter-spac-1{
   letter-spacing: 1em;
 }
 .letter-spac-2{
-  letter-spacing: 0.5em;
+  letter-spacing: 1.3em;
+}
+.letter-spac-3{
+  letter-spacing: 1.5em;
+}
+.letter-spac-4{
+  letter-spacing: 2em;
+}
+.letter-spac-5{
+  letter-spacing: 2.5em;
 }
 
-.fs-96{
-  font-size: 96px;
-}
 
 .fw-900{
   font-weight: 900;

@@ -1,7 +1,13 @@
-.fs-96 {
-  font-size: 96px;
+.fs-64{
+  @media(max-width:768px){
+    font-size: 64px !important;
+  }
 }
-
+.fs-96{
+  @media(min-width:768px){
+    font-size: 96px !important;
+  }
+}
 .alphabox {
   height: 351px;
   background-image: url("../images/carousel2.png");
@@ -22,7 +28,7 @@
   }
 }
 
-.rotate {
+.rotateAnimation-2 {
   rotate: 180deg;
 }
 

@@ -31,11 +31,9 @@
 }
 .card-list{
   position: relative;
+  margin-top: -104px;
   bottom:-104px;
   z-index: 10;
-  @include pad{
-    bottom:0px;
-  }
 }
 .radialToLight{
   @include radial-gradient(#28085c, #000000);
@@ -45,6 +43,9 @@
 .service{
   position: relative;
   z-index: 1;
+  @include pad{
+    padding-top: 136px !important;
+  }
 .img-bg{
   position: absolute;
   background-image: url("../images/carousel_background.png");
@@ -68,15 +69,25 @@
     z-index: 5;
   }
 }
+
 .news{
   @include radial-gradient(#28085c, #000000);
   padding-top: 160px;
   @include pad{
     padding-top: 60px;
   }
+  .text-center-md{
+    @include pad{
+      text-align: center;
+    }
+  }
   .more-rotate{
     padding-top: 130px;
     padding-bottom: 150px;
+    @include pad{
+      padding-top: 94px;
+      padding-bottom: 134px;
+    }
   }
   .rotate2 {
     animation: rotateAnimation 10s linear infinite; /* 10s 是動畫完成一次旋轉的時間*/
@@ -101,6 +112,9 @@
   padding-top: 160px;
   padding-bottom: 40px;
   @include radial-gradient( #000000,#28085c);
+  @include pad{
+    padding-top: 60px;
+  }
 }
 .contact{
   background-color: #1F0F39;
