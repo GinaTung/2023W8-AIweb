@@ -114,12 +114,17 @@
   @include radial-gradient( #000000,#28085c);
   @include pad{
     padding-top: 60px;
+    padding-bottom: 80px;
   }
 }
 .contact{
   background-color: #1F0F39;
   padding-top: 144px;
   padding-bottom: 144px;
+  @include pad{
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
   .line-x-2{
     width: 124px;
     height: 12px;
